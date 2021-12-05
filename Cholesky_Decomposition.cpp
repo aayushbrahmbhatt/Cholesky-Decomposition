@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
-
 using namespace std;
+
 const int MAX = 100;
 int L[100][100];
 void Cholesky_decomp(int mat[][MAX], int size) {
