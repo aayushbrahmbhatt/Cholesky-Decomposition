@@ -4,7 +4,7 @@ using namespace std;
 const int MAX = 100;
 int L[100][100];
 void Cholesky_decomp(int mat[][MAX], int size) {
-    //For Understanding the algorithm better please refer to our project report
+    //For understanding the algorithm better please refer to our project report
     memset(L, 0, sizeof(L));
     for (int i = 0; i < size; i++) {
         for (int j = 0; j <= i; j++) {
